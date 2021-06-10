@@ -24,7 +24,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " code completion
 Plug 'pangloss/vim-javascript' " javascript syntax highlighting
 Plug 'leafgarland/typescript-vim' " TS syntax highlighting
-Plug 'preservim/nerdtree' " Well...NERDTree
+Plug 'scrooloose/nerdtree' " Well...NERDTree
 Plug 'mxw/vim-jsx' " React JSX extension
 Plug 'dracula/vim', { 'as': 'dracula' } " Dracula color scheme
 Plug 'itchyny/lightline.vim' " Light powerline alternative
@@ -193,4 +193,3 @@ colorscheme dracula
 let g:airline_powerline_fonts = 1
 " set linenumbers on
 set number
-
